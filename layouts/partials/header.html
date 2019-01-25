@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Designer Panda</title>
+    <link rel="stylesheet" href="{{.Site.BaseURL}}css/style.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <nav class="nav">
+                    <a class="logo" href="{{.Site.BaseURL}}">Designer Panda</a>
+                    <a class="btn-toggle" href="{{.Site.BaseURL}}"></a>
+                {{ partial "navigation" .}}
+            </nav>
+        </div>
+            <div class="baseline">
+                <span class="baseline-welcome">Designer Panda</span>
+                <span class="baseline-slogan">Designer & Developer Web</span>
+            </div>
+    </header>
